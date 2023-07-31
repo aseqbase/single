@@ -1,7 +1,7 @@
 <?php
 $dirs = explode("/", __DIR__);
 $GLOBALS["ASEQ"] = end($dirs);
-$GLOBALS["BASE"] = ".service-seq";
+$GLOBALS["BASE"] = ".aseq";
 
 $GLOBALS["NEST"] = !empty($GLOBALS["ASEQ"])?preg_match_all("/(?<=\S|\s)\.(?=\S|\s)/",$ASEQ)+1:0;
 if(!isset($GLOBALS["HOST"])){
