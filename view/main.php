@@ -1,25 +1,26 @@
 <?php
 TEMPLATE("General");
-$templ = new \MiMFa\Template\General();
-$templ->Initial = function() use($templ) {
+// Create an instance of the regular and basic template
+$template = new \MiMFa\Template\General();
+$template->Initial = function() use($template) {
     $templ->DrawInitial();
-    //Head Tags
+    // Draw Head Tags
 };
-$templ->Header = function() use($templ) {
+$template->Header = function() use($template) {
     $templ->DrawHeader();
-    //Page Header
+    // Draw Page Header
 };
-$templ->Content = function() use($templ) {
+$template->Content = function() use($template) {
     $templ->DrawContent();
-    //Page Content
+    // Draw Page Content
 };
-$templ->Footer = function() use($templ) {
+$template->Footer = function() use($template) {
     $templ->DrawFooter();
-    //Page Footer
+    // Draw Page Footer
 };
-$templ->Final = function() use($templ) {
+$template->Final = function() use($template) {
     $templ->DrawFinal();
-    //Final Tags
+    // Draw Final Tags
 };
-$templ->Draw();
+$template->Draw();
 ?>
