@@ -3,23 +3,23 @@ TEMPLATE("General");
 // Create an instance of the regular and basic template
 $template = new \MiMFa\Template\General();
 $template->Initial = function() use($template) {
-    $templ->DrawInitial();
+    $template->DrawInitial();
     // Draw Head Tags
 };
 $template->Header = function() use($template) {
-    $templ->DrawHeader();
+    $template->DrawHeader();
     // Draw Page Header
 };
 $template->Content = function() use($template) {
-    $templ->DrawContent();
+    $template->DrawContent();
     // Draw Page Content
 };
 $template->Footer = function() use($template) {
-    $templ->DrawFooter();
+    $template->DrawFooter();
     // Draw Page Footer
 };
 $template->Final = function() use($template) {
-    $templ->DrawFinal();
+    $template->DrawFinal();
     // Draw Final Tags
 };
 $template->Draw();
