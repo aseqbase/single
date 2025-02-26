@@ -6,19 +6,7 @@ class Configuration extends ConfigurationBase {
     //public $DisplayStartupError = 1;
     //public $ReportError = E_ALL;
     //public $DataBaseError = 1;
-
-    //public $AllowCache = false;
-    //public $AllowReduceSize = true;
-    //public $AllowEncryptNames = true;
-
-    /**
-     * An array of all patterns=>handler view names to handle the virtual pathes
-     * Empty array causing to pass all patterns to the ViewName or DefaultViewName or "main" view
-     * @var array<string,string>
-     * @category General
-     */
-	public $Handlers = [];
-
+    
     ///**
     // * The status of all server response: 400, 404, 500, etc.
     // * @var mixed
