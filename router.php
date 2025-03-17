@@ -9,5 +9,5 @@
  */
 
 // To route all requests to the DefaultRouteName
-\_::$Back->Router->Route()->Default(\_::$Config->DefaultRouteName);
+\_::$Back->Router->Route->Default(\_::$Config->DefaultRouteName);
 ?>
