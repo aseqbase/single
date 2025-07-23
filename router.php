@@ -5,9 +5,9 @@
 
 /**
  * Use your routers by below formats
- * \_::$Back->Router->Route("A Part Of Path?")->Default("Route Name");
+ * \_::$Back->Router->On("A Part Of Path?")->Default("Route Name");
  */
 
 // To route all requests to the DefaultRouteName
-\_::$Back->Router->Route->Default(\_::$Config->DefaultRouteName);
+\_::$Back->Router->On()->Default(\_::$Config->DefaultRouteName);
 ?>
