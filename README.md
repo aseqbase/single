@@ -1,7 +1,9 @@
 # Single-Page Application (Project)
 > aseqbase/single
+
 To create a Single Page website or subdomain, with all accessibility and equipment, for an aseqbase website...
 A web application that dynamically rewrites the current page with new data, rather than loading entire new pages from a server.
+
 ## Dependencies
 * <a href="http://github.com//aseqbase/aseqbase">aseqbase/aseqbase</a>
 <h2>Managements</h2>
