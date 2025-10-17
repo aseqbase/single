@@ -1,23 +1,25 @@
-# Single page aseqbase website
-To create a single page website or subdomain, with all accessibility and equipment, for an aseqbase website...
+# Single-Page Application (Project)
+> aseqbase/single
+To create a Single Page website or subdomain, with all accessibility and equipment, for an aseqbase website...
+A web application that dynamically rewrites the current page with new data, rather than loading entire new pages from a server.
 ## Dependencies
 * <a href="http://github.com//aseqbase/aseqbase">aseqbase/aseqbase</a>
 <h2>Managements</h2>
 <h3>Installing</h3>
 
-  1. Install all dependencies mentioned above
+  1. Install all dependencies mentioned before
   2. Follow one of these options:
-		* Open a terminal in the destination directory (for example, `D:\MyWebsite\$1\`) of the website, then install the package by:
+		* Open a terminal in the destination directory (for example, `D:\MyWebsite\single\`) of the website, then install the project by:
 			``` bash
 			> composer create-project aseqbase/single
 			```
-		* Prompts below to create a manageable package (update, uninstall, etc.):
+		* Prompts below to create a manageable project (update, uninstall, etc.):
 			``` bash
 			> composer require aseqbase/single
 			> cd vendor/aseqbase/single
 			> composer dev:install
 			```
-  3. Put the destination directory of your package on the appeared step (for example, `D:\MyWebsite\single\`)
+  3. Put the destination directory of your project on the appeared step (for example, `D:\MyWebsite\single\`)
 		``` bash
 		Destination Directory [D:\MyWebsite\]: D:\MyWebsite\single\
 		```
@@ -54,7 +56,7 @@ To create a single page website or subdomain, with all accessibility and equipme
 
 <h3>Updating</h3>
 
-  1. Keep your package updated using
+  1. Keep your project updated using
 		``` bash
   		> cd vendor/aseqbase/single
 		> composer dev:update
@@ -64,7 +66,7 @@ To create a single page website or subdomain, with all accessibility and equipme
 
 <h3>Uninstalling</h3>
 
-  1. Uninstall the package and the constructed database using
+  1. Uninstall the project and the constructed database using
 		``` bash
   		> cd vendor/aseqbase/single
 		> composer dev:unistall
