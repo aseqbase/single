@@ -26,7 +26,7 @@ A web application that dynamically rewrites the current page with new data, rath
 		Destination Directory [D:\MyWebsite\]: D:\MyWebsite\single\
 		```
   4. Follow the steps to finish the installation of sources, database, etc.
-  5. [optional] On the local server, create an optional file named `global.php` in the `single` directory  to change your-parent-directory-name (from the `.aseq`) using:
+  5. [optional] On the local server, create an optional file named `global.php` in the `single` directory  to change your-parent-directory-name (from the `aseq`) using:
 		``` bash
 		> composer single:create global --aseq "single" --base "your-parent-directory-name" -f
 		```
@@ -35,7 +35,7 @@ A web application that dynamically rewrites the current page with new data, rath
 		> cd vendor/aseqbase/single
 		vendor/aseqbase/single> composer dev:create global --aseq "single" --base "your-parent-directory-name" -f
 		```
-		**Note**: Do not forget to replace "your-parent-directory-name" with your item (default `.aseq`). 
+		**Note**: Do not forget to replace "your-parent-directory-name" with your item (default `aseq`). 
   6. Enjoy...
 
 <h3>Using</h3>
